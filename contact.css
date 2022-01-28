@@ -1,0 +1,118 @@
+.contact {
+    margin-top: 60px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactt {
+    background-color: orange;
+    text-align: center;
+}
+
+.contact .top3 {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .top3 .left {
+    color: orange;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 80px 100px 80px 100px;
+    font-family: "Comic Sans Ms", "Comic Sans", cursive;
+    width: 25%;
+}
+
+.top3 .right {
+    color: white;
+    text-align: center;
+}
+
+.top3 .right h2 {
+    font-size: 30px;
+}
+
+.contact .email {
+    width: 230px;
+    height: 23px;
+    margin-bottom: 15px;
+    color: rgb(245, 209, 142);
+    border: none;
+}
+
+.contact .button {
+    padding: 8px 15px;
+    background-color: white;
+    color: orange;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.check {
+    border: none;
+}
+
+.overallRight {
+    color: white;
+    margin-left: 250px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .contact .overallLeft .top3 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top3 .left h1 {
+        font-size: 20px;
+    }
+    .contact .top3 .left {
+        padding: 40px 40px 40px 40px;
+        font-family: "Comic Sans Ms", "Comic Sans", cursive;
+        margin: 0px auto;
+    }
+    .overallRight {
+        width: 45%;
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .contact .overallLeft .top3 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top3 .left h1 {
+        font-size: 20px;
+    }
+    .contact .top3 .left {
+        padding: 40px 40px 40px 40px;
+        font-family: "Comic Sans Ms", "Comic Sans", cursive;
+        margin: 0px auto;
+    }
+    .overallRight {
+        width: 45%;
+        margin: 0px auto;
+    }
+}

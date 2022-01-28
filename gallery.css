@@ -1,0 +1,23 @@
+.gallery .row1 img {
+    width: 320px;
+    height: 230px;
+    margin: 30px;
+}
+
+.gallery .row1 img:hover {
+    width: 350px;
+    height: 240px;
+    margin: 30px;
+}
+
+.gallery {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.gallery .top {
+    margin-top: 50px;
+    line-height: 5px;
+    margin-bottom: 30px;
+}

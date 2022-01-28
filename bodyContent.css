@@ -1,0 +1,58 @@
+.bodyContent {
+    margin: 10px auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+#left h1 {
+    font-size: 60px;
+}
+
+#left p {
+    font-size: 12px;
+}
+
+#left span {
+    color: orange;
+}
+
+#left button {
+    background-color: orange;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+#right img {
+    height: 480px;
+    width: 650px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bodyContent {
+        flex-direction: column;
+        width: 75%;
+    }
+    #left h1 {
+        font-size: 35px;
+    }
+    #left p {
+        font-size: 10px;
+    }
+    #left button {
+        background-color: orange;
+        color: white;
+        padding: 8px 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    #right img {
+        margin-top: 25px;
+        height: 300px;
+        width: 350px;
+    }
+}

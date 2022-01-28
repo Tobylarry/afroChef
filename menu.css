@@ -1,0 +1,84 @@
+    .menu {
+        text-align: center;
+        background-color: orange;
+        padding: 50px 0px 80px 0px;
+        width: 100%;
+        margin: 50px auto 0px auto;
+    }
+    
+    .menu #top {
+        line-height: 5px;
+        margin-bottom: 30px;
+    }
+    
+    .order {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+    }
+    
+    .plate {
+        text-align: center;
+        margin-right: 60px;
+        background-color: white;
+        border: 2px solid rgb(255, 239, 198);
+        padding: 25px 45px;
+        border-radius: 10px;
+    }
+    
+    .plate input {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(6, 6, 94);
+        color: white;
+        border-radius: 5px;
+        width: 80px;
+    }
+    
+    .more {
+        display: none;
+        margin-bottom: 30px;
+    }
+    
+    .more img {
+        border-radius: 0%;
+        margin-right: -5px;
+        width: 180px;
+        height: 180px;
+    }
+    
+    .more img:hover {
+        width: 200px;
+        height: 200px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .menu {
+            text-align: center;
+        }
+        .order {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu img {
+            height: 80px;
+            width: 80px;
+        }
+        .plate {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 25px 45px;
+            width: 35%;
+            margin: 10px auto;
+        }
+        .plate input {
+            padding: 5px;
+            width: 60px;
+        }
+    }

@@ -1,0 +1,76 @@
+.header {
+    margin: 13px auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+hr {
+    width: 5%;
+    margin: 0px auto;
+    border-color: orange
+}
+
+body {
+    margin: 0px;
+}
+
+.bars div {
+    border: 2px solid rgb(6, 6, 94);
+    width: 30px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+#logo {
+    display: flex;
+    letter-spacing: 8px;
+    color: orange;
+}
+
+#logo img {
+    height: 60px;
+    width: 60px;
+}
+
+#navigate span {
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bars {
+    display: none;
+}
+
+#signUp span {
+    margin-right: 8px;
+}
+
+#signUp button {
+    background-color: rgb(6, 6, 94);
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #navigate,
+    #signUp {
+        display: none;
+    }
+    .bars div {
+        display: block;
+    }
+    .header {
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
